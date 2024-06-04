@@ -2,6 +2,7 @@ import { Box, Container, Flex, Text, VStack, Link, Button, Input, FormControl, F
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSupabaseAuth, SupabaseAuthUI } from "../integrations/supabase/auth.jsx";
+import { supabase } from "../integrations/supabase/index.js";
 
 const Login = () => {
   const { session, logout } = useSupabaseAuth();
