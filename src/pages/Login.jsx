@@ -34,6 +34,7 @@ const Login = () => {
               <Link href="/" px={4}>Home</Link>
               <Link href="/about" px={4}>About</Link>
               <Link href="/contact" px={4}>Contact</Link>
+              <Link href="/login" px={4}>Login</Link> {/* New login link */}
             </Flex>
           </Flex>
         </Container>
